@@ -5,6 +5,42 @@ trained Random Forest classifier, served through a Flask REST API and a React fr
 
 ---
 
+## 📸 Application Screenshots
+
+### 🏠 Landing Page
+The main interface where users can enter a URL for phishing detection.
+
+![Landing Page](screenshots/LandingPage.png)
+
+---
+
+### ✅ Safe URL Detection
+Example of a legitimate website successfully classified as safe, along with the extracted URL features and confidence score.
+
+![Legitimate URL Detection](screenshots/Legitimate.png)
+
+---
+
+### 🚨 Phishing URL Detection
+Example of a phishing website detected by the model, showing the confidence score and extracted suspicious features.
+
+![Phishing URL Detection](screenshots/Phishing.png)
+
+---
+
+### 📜 Scan History
+Displays previously scanned URLs along with their prediction results, confidence scores, and timestamps.
+
+![Scan History](screenshots/History.png)
+
+---
+
+### 📊 Model Insights
+Provides confusion matrices for different machine learning models and feature importance visualization.
+
+![Model Insights](screenshots/Insights.png)
+
+
 ## 📁 Project Structure
 
 ```
